@@ -4,7 +4,7 @@
 
 A Python project template to save you time and energy.
 
-[![Build Status](https://travis-ci.com/justintime50/python-template.svg?branch=main)](https://travis-ci.com/USERNAME/python-template)
+[![Build Status](https://travis-ci.com/justintime50/python-template.svg?branch=main)](https://travis-ci.com/justintime50/python-template)
 [![Licence](https://img.shields.io/github/license/justintime50/python-template)](LICENSE)
 
 <img src="assets/showcase.png" alt="Showcase">
