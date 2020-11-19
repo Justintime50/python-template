@@ -13,14 +13,14 @@ script:
     - flake8 test/*.py
     - pytest --cov=python_project
 
-deploy:
-    provider: pypi
-    username: __token__
-    password:
-        secure: # TODO: Add secure token here
-    on:
-        tags: true
-    skip_existing: true
+# deploy:
+#     provider: pypi
+#     username: __token__
+#     password:
+#         secure: # TODO: Add secure token here
+#     on:
+#         tags: true
+#     skip_existing: true
 
-after_success:
-    - coveralls
+# after_success:
+#     - coveralls
