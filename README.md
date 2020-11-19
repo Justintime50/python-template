@@ -15,7 +15,7 @@ Python projects take a long time to setup with all the various files, the virtua
 
 ## Install
 
-Click the `Use this template` button on this project's GitHub page.
+Click the `Use this template` button at the top of this project's GitHub page, it looks like this:
 
 <img src="assets/use_template_button.png" alt="Use Template Button">
 
