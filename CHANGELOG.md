@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.1.1 (2021-01-09)
+
+* Removed all references to Travis-CI and replace with GitHub Actions
+* Bumped the year in LICENSE
+* Added clarifying statement in README to remove all extra assets
+
 ## v1.1.0 (2021-01-05)
 
 * Added GitHub Actions

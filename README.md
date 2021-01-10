@@ -36,15 +36,7 @@ Click the `Use this template` button at the top of this project's GitHub page, i
 1. Update the name in the `LICENSE`
 1. Configure the `.travis.yml` or `.github/workflows/build.yml` file
 1. Update the `CHANGELOG`
-1. Add your showcase image to `/assets`
+1. Replace the showcase image in `/assets` and remove all other unneeded assets
 1. Change the data in `.github/FUNDING.yml`
 1. Rename other files/folders as needed and configure their content
 1. Delete this `README` and rename `README_project.md` to `README.md`
-
-**Travis-CI**
-
-To add a secure PyPi API key to your `.travis.yml` file, run the following command and replace `your-api-token` with your real API token.
-
-```bash
-travis encrypt your-api-token --add deploy.password --com
-```
