@@ -34,7 +34,7 @@ Click the `Use this template` button at the top of this project's GitHub page, i
 1. Configure the `setup.py` file
 1. Configure the `Makefile` targets
 1. Update the name in the `LICENSE`
-1. Configure the `.travis.yml` or `.github/workflows/build.yml` file
+1. Configure the `.github/workflows/build.yml` file
 1. Update the `CHANGELOG`
 1. Replace the showcase image in `/assets` and remove all other unneeded assets
 1. Change the data in `.github/FUNDING.yml`
