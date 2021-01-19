@@ -4,7 +4,7 @@
 
 A one-liner description of your project goes here.
 
-[![Build](https://github.com/Justintime50/PROJECT_NAME/workflows/build/badge.svg)](https://github.com/Justintime50/PROJECT_NAME/actions)
+[![Build Status](https://github.com/Justintime50/PROJECT_NAME/workflows/build/badge.svg)](https://github.com/Justintime50/PROJECT_NAME/actions)
 [![Coverage Status](https://coveralls.io/repos/github/USERNAME/PROJECT_NAME/badge.svg?branch=main)](https://coveralls.io/github/USERNAME/PROJECT_NAME?branch=main)
 [![PyPi](https://img.shields.io/pypi/v/PROJECT_NAME)](https://pypi.org/project/PROJECT_NAME)
 [![Licence](https://img.shields.io/github/license/USERNAME/PROJECT_NAME)](LICENSE)
