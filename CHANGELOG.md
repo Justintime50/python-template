@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v1.2.0 (2021-01-30)
+
+* Fixed the Coveralls command in GitHub Actions, builds now pass with their new platform requirement flag
+* Added a `release.yml` file to automate PyPI releasing via GitHub Actions
+
 ## v1.1.1 (2021-01-09)
 
 * Removed all references to Travis-CI and replace with GitHub Actions
