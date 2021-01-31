@@ -40,3 +40,7 @@ Click the `Use this template` button at the top of this project's GitHub page, i
 1. Change the data in `.github/FUNDING.yml`
 1. Rename other files/folders as needed and configure their content
 1. Delete this `README` and rename `README_project.md` to `README.md`
+
+**GitHub configuration**
+
+1. Add a `PYPI_API_TOKEN` GitHub secret to your project so that automated releasing can occur from GitHub Actions to PyPI
