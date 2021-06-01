@@ -1,5 +1,10 @@
 # CHANGELOG
 
+# v1.3.0 (2021-05-31)
+
+* Pins dependencies and moves them to a constant
+* Adds missing lines to code coverage report
+
 ## v1.2.0 (2021-01-30)
 
 * Fixed the Coveralls command in GitHub Actions, builds now pass with their new platform requirement flag
