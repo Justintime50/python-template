@@ -4,7 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 REQUIREMENTS = [
-    # 'requests >= 1.0.0',
+    # Add your list of production dependencies here, eg:
+    # 'requests == 1.*',
 ]
 
 DEV_REQUIREMENTS = [
