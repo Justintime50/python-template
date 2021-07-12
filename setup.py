@@ -17,12 +17,12 @@ DEV_REQUIREMENTS = [
 ]
 
 setuptools.setup(
-    name='PROJECT_NAME',
+    name='PROJECT_NAME_URL',
     version='1.0.0',
-    description='Your project description here',  # noqa
+    description='Your project description here',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='http://github.com/USERNAME/PROJECT_NAME',
+    url='http://github.com/USERNAME/PROJECT_NAME_URL',
     author='USERNAME',
     license='MIT',
     packages=setuptools.find_packages(),
@@ -37,7 +37,7 @@ setuptools.setup(
     },
     entry_points={
         'console_scripts': [
-            'PROJECT_NAME=python_project.my_module:main'
+            'PROJECT_NAME_URL=project_name.my_module:main'
         ]
     },
     python_requires='>=3.6',

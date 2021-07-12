@@ -1,6 +1,11 @@
 # CHANGELOG
 
-# v1.3.0 (2021-05-31)
+## v1.4.0 (2021-07-12)
+
+* Clarified various pieces of info
+* Unified more text replacements for easier usage of the template when getting started
+
+## v1.3.0 (2021-05-31)
 
 * Pins dependencies and moves them to a constant
 * Adds missing lines to code coverage report
