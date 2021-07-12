@@ -24,20 +24,22 @@ Click the `Use this template` button at the top of this project's GitHub page, i
 
 **Easy text replacements**
 
-1. Replace all instances of `python_project` with the name of your project
-1. Replace all instances of `Python Template` with the name of your project
-1. Replace all instances of `PROJECT_NAME` with the name of your project
-1. Replace all instances of `USERNAME` with the name of the author/owner as it appears on GitHub
+1. Replace all instances of `project_name` with the name of your project
+    * These are the Python snake_case references (eg: `project_name`)
+1. Replace all instances of `PROJECT_NAME_URL` with the name of your project
+    * These are the references to your project that will appear in URLs and are typically hyphenated (eg: `project-name`)
+1. Replace all instances of `USERNAME` with the name of the author or owner of the project
+    * These are references typically found in the URL of your project as it appears on GitHub
 
 **File configuration**
 
 1. Configure the `setup.py` file
 1. Configure the `Makefile` targets
-1. Update the name in the `LICENSE`
+1. Update the name in the `LICENSE` or swap it out entirely
 1. Configure the `.github/workflows/build.yml` file
-1. Update the `CHANGELOG`
-1. Replace the showcase image in `/assets` and remove all other unneeded assets
 1. Change the data in `.github/FUNDING.yml`
+1. Update the `CHANGELOG.md` with your own info
+1. Replace the showcase image in `/assets` and remove all other unused assets
 1. Rename other files/folders as needed and configure their content
 1. Delete this `README` and rename `README_project.md` to `README.md`
 
