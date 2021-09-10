@@ -19,7 +19,7 @@ A longer paragraph description of your project goes here.
 
 ```bash
 # Install tool
-pip3 install project
+pip3 install project_name
 
 # Install locally
 make install
