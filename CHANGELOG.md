@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.5.0 (2021-09-10)
+
+* Drops support for Python 3.6
+* Removes the `mock` library in favor of the builtin `unittest.mock` library
+* Fix some typos
+
 ## v1.4.0 (2021-07-12)
 
 * Clarified various pieces of info
