@@ -8,7 +8,7 @@ A Python project template to save you time and energy.
 [![Coverage Status](https://coveralls.io/repos/github/Justintime50/python-template/badge.svg?branch=main)](https://coveralls.io/github/Justintime50/python-template?branch=main)
 [![Licence](https://img.shields.io/github/license/justintime50/python-template)](LICENSE)
 
-<img src="assets/showcase.png" alt="Showcase">
+<img src="https://raw.githubusercontent.com/justintime50/assets/main/src/python-template/showcase.png" alt="Showcase">
 
 </div>
 
@@ -18,7 +18,7 @@ Python projects take a long time to setup with all the various files, the virtua
 
 Click the `Use this template` button at the top of this project's GitHub page, it looks like this:
 
-<img src="assets/use_template_button.png" alt="Use Template Button">
+<img src="https://raw.githubusercontent.com/justintime50/assets/main/src/templates/use_template_button.png" alt="Use Template Button">
 
 ## Usage
 
