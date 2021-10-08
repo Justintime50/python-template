@@ -1,12 +1,10 @@
-class MyModule():
+class MyModule:
     def my_function():
         pass
 
 
 def main():
-    """The main entrypoint for this script
-    Used in the setup.py file
-    """
+    """The main entrypoint for this script used in the setup.py file."""
     MyModule.my_function()
 
 

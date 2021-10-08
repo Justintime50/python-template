@@ -23,9 +23,6 @@ pip3 install project_name
 
 # Install locally
 make install
-
-# Get Makefile help
-make help
 ```
 
 ## Usage
@@ -39,12 +36,6 @@ venv/bin/python my_script.py
 ## Development
 
 ```bash
-# Lint the project
-make lint
-
-# Run tests
-make test
-
-# Run test coverage
-make coverage
+# Get a comprehensive list of development tools
+make help
 ```

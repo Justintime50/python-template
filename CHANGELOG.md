@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v1.6.0 (2021-10-08)
+
+* Adds `Black` and `iSort` as dev dependencies
+* Adds a `pyproject.toml` file to configure Python tools
+* Completely refactors the `Makefile` to include new tools and better ways of invoking previous ones
+* Removes `.github/FUNDING.yml` file in favor of `.github` global files
+
 ## v1.5.0 (2021-09-10)
 
 * Drops support for Python 3.6
