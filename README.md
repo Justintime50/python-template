@@ -37,9 +37,7 @@ Click the `Use this template` button at the top of this project's GitHub page, i
 1. Configure the `Makefile` targets
 1. Update the name in the `LICENSE` or swap it out entirely
 1. Configure the `.github/workflows/build.yml` file
-1. Change the data in `.github/FUNDING.yml`
 1. Update the `CHANGELOG.md` with your own info
-1. Replace the showcase image in `/assets` and remove all other unused assets
 1. Rename other files/folders as needed and configure their content
 1. Delete this `README` and rename `README_project.md` to `README.md`
 
