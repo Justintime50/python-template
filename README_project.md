@@ -1,6 +1,6 @@
 <div align="center">
 
-# Project Name
+# PROJECT_NAME_URL
 
 A one-liner description of your project goes here.
 

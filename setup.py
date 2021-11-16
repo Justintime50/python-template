@@ -19,7 +19,7 @@ DEV_REQUIREMENTS = [
 
 setuptools.setup(
     name='PROJECT_NAME_URL',
-    version='1.0.0',
+    version='0.1.0',
     description='Your project description here',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -41,5 +41,5 @@ setuptools.setup(
             'PROJECT_NAME_URL=project_name.my_module:main',
         ]
     },
-    python_requires='>=3.7',
+    python_requires='>=3.7, <4',
 )
