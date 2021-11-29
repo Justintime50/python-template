@@ -1,13 +1,5 @@
-from unittest.mock import patch
-
-from project_name.my_module import MyModule, main
+import project_name
 
 
-def test_my_function():
-    MyModule.my_function()
-
-
-@patch('project_name.my_module.MyModule.my_function')
-def test_main(mock_my_function):
-    main()
-    mock_my_function.assert_called_once()
+def test_main():
+    project_name.main()

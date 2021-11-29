@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v1.7.0 (2021-11-29)
+
+* Adds `mypy` and type hinting via `py.typed`
+* Simplifies template module (removes unused class)
+* Adds missing `__all__` variable to `__init__.py`
+* Simplifies the lint step of the build by only running checks once (previously some checks were getting run twice)
+* Tests against Python `3.10`
+
 ## v1.6.0 (2021-10-08)
 
 * Adds `Black` and `iSort` as dev dependencies

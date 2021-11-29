@@ -1,2 +1,5 @@
-# flake8: noqa
-from project_name.my_module import MyModule
+from project_name.my_module import main
+
+__all__ = [
+    'main',
+]

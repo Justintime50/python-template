@@ -13,6 +13,7 @@ DEV_REQUIREMENTS = [
     'coveralls == 3.*',
     'flake8',
     'isort',
+    'mypy',
     'pytest == 6.*',
     'pytest-cov == 2.*',
 ]
@@ -27,6 +28,7 @@ setuptools.setup(
     author='USERNAME',
     license='MIT',
     packages=setuptools.find_packages(),
+    package_data={'PROJECT_NAME_URL': ['py.typed']},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
