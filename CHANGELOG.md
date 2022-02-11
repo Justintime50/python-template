@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.7.1 (2022-02-10)
+
+* Update Makefile install target to not symlink to the home directory
+* Update Black to use the `preview` flag
+* Bump dev dependencies
+
 ## v1.7.0 (2021-11-29)
 
 * Adds `mypy` and type hinting via `py.typed`
