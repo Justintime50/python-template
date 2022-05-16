@@ -29,8 +29,17 @@ setuptools.setup(
     url='http://github.com/USERNAME/PROJECT_NAME_URL',
     author='USERNAME',
     license='MIT',
-    packages=setuptools.find_packages(),
-    package_data={'PROJECT_NAME_URL': ['py.typed']},
+    packages=setuptools.find_packages(
+        exclude=[
+            'examples',
+            'test',
+        ]
+    ),
+    package_data={
+        'PROJECT_NAME_URL': [
+            'py.typed',
+        ]
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
