@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.9.0 (2022-11-02)
+
+- Removes the `coveralls` dev dependency and instead updates `pytest-cov` to v4 which now supports `lcov` generation
+
 ## v1.8.0 (2022-05-15)
 
 - Overhaul the build process (uses the `build` package instead of the legacy `python setup.py` command)
