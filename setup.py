@@ -11,12 +11,11 @@ REQUIREMENTS = [
 DEV_REQUIREMENTS = [
     'black == 22.*',
     'build == 0.7.*',
-    'coveralls == 3.*',
     'flake8 == 4.*',
     'isort == 5.*',
     'mypy == 0.942',
     'pytest == 7.*',
-    'pytest-cov == 3.*',
+    'pytest-cov == 4.*',
     'twine == 4.*',
 ]
 
