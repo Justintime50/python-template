@@ -12,17 +12,15 @@ A Python project template to save you time and energy.
 
 </div>
 
-Python projects take a long time to setup with all the various files, the virtual environment, and keeping things uniform across projects. With this Python template, you can quickly setup boilerplate code and miscellaneous items for your Python project saving you time and energy so you can get back to coding. 
+Python projects take a long time to setup with all the various files, the virtual environment, and keeping things uniform across projects. With this Python template, you can quickly setup boilerplate code and miscellaneous items for your Python project saving you time and energy so you can get back to coding.
 
 ## Install
 
-Click the `Use this template` button at the top of this project's GitHub page, it looks like this:
-
-<img src="https://raw.githubusercontent.com/justintime50/assets/main/src/templates/use_template_button.png" alt="Use Template Button">
+Click the [Use this template](https://github.com/Justintime50/python-template/generate) button at the top of this project's GitHub page to get started.
 
 ## Usage
 
-**Easy text replacements**
+### Easy text replacements
 
 1. Replace all instances of `project_name` with the name of your project
     * These are the Python snake_case references (eg: `project_name`)
@@ -31,7 +29,7 @@ Click the `Use this template` button at the top of this project's GitHub page, i
 1. Replace all instances of `USERNAME` with the name of the author or owner of the project
     * These are references typically found in the URL of your project as it appears on GitHub
 
-**File configuration**
+### File configuration
 
 1. Configure the `setup.py` file
 1. Configure the `Makefile` targets
@@ -41,7 +39,7 @@ Click the `Use this template` button at the top of this project's GitHub page, i
 1. Rename other files/folders as needed and configure their content
 1. Delete this `README` and rename `README_project.md` to `README.md`
 
-**GitHub configuration**
+### GitHub configuration
 
 1. Add a `PYPI_API_TOKEN` GitHub secret to your project so that automated releasing can occur from GitHub Actions to PyPI and uncomment the final step on the `release` job in `.github/workflows/release.yml`
 
