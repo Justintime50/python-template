@@ -9,11 +9,11 @@ REQUIREMENTS = [
 ]
 
 DEV_REQUIREMENTS = [
-    'black == 22.*',
-    'build == 0.7.*',
-    'flake8 == 4.*',
+    'black == 23.*',
+    'build == 0.10.*',
+    'flake8 == 6.*',
     'isort == 5.*',
-    'mypy == 0.942',
+    'mypy == 1.2',
     'pytest == 7.*',
     'pytest-cov == 4.*',
     'twine == 4.*',
@@ -35,7 +35,7 @@ setuptools.setup(
         ]
     ),
     package_data={
-        'PROJECT_NAME_URL': [
+        'project_name': [
             'py.typed',
         ]
     },

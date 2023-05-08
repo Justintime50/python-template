@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v1.9.1 (2023-05-08)
+
+- Fixes a replacement typo in setup.py for `package_data`
+- Bumps all dependencies
+
 ## v1.9.0 (2022-11-02)
 
 - Removes the `coveralls` dev dependency and instead updates `pytest-cov` to v4 which now supports `lcov` generation
