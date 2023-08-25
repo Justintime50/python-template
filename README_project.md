@@ -22,7 +22,7 @@ A longer paragraph description of your project goes here.
 pip3 install project_name
 
 # Install locally
-make install
+just install
 ```
 
 ## Usage
@@ -37,5 +37,5 @@ venv/bin/python my_script.py
 
 ```bash
 # Get a comprehensive list of development tools
-make help
+just --list
 ```

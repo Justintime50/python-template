@@ -32,7 +32,7 @@ Click the [Use this template](https://github.com/Justintime50/python-template/ge
 ### File configuration
 
 1. Configure the `setup.py` file
-1. Configure the `Makefile` targets
+1. Configure the `justfile` targets
 1. Update the name in the `LICENSE` or swap it out entirely
 1. Configure the `.github/workflows/build.yml` file
 1. Update the `CHANGELOG.md` with your own info

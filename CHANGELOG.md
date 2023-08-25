@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v1.10.0 (2023-08-24)
+
+- Drops Python 3.7 support
+- Swaps the Makefile for a Justfile
+- Overhauls version constant and usage (uniform between `setup.py` and package code)
+- Cleans up GitHub Action workflows
+- Adds `bandit` dev dependency
+
 ## v1.9.1 (2023-05-08)
 
 - Fixes a replacement typo in setup.py for `package_data`

@@ -1,7 +1,17 @@
+import re
+
 import setuptools
 
-with open('README.md', 'r') as fh:
-    long_description = fh.read()
+with open('README.md', 'r') as readme_file:
+    long_description = readme_file.read()
+
+# Inspiration: https://stackoverflow.com/a/7071358/6064135
+with open('project_name/_version.py', 'r') as version_file:
+    version_groups = re.search(r"^__version__ = ['\"]([^'\"]*)['\"]", version_file.read(), re.M)
+    if version_groups:
+        version = version_groups.group(1)
+    else:
+        raise RuntimeError('Unable to find version string!')
 
 REQUIREMENTS = [
     # Add your list of production dependencies here, eg:
@@ -9,11 +19,12 @@ REQUIREMENTS = [
 ]
 
 DEV_REQUIREMENTS = [
+    'bandit == 1.7.*',
     'black == 23.*',
     'build == 0.10.*',
     'flake8 == 6.*',
     'isort == 5.*',
-    'mypy == 1.2',
+    'mypy == 1.5.*',
     'pytest == 7.*',
     'pytest-cov == 4.*',
     'twine == 4.*',
@@ -21,7 +32,7 @@ DEV_REQUIREMENTS = [
 
 setuptools.setup(
     name='PROJECT_NAME_URL',
-    version='0.1.0',
+    version=version,
     description='Your project description here',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -53,5 +64,5 @@ setuptools.setup(
             'PROJECT_NAME_URL=project_name.my_module:main',
         ]
     },
-    python_requires='>=3.7, <4',
+    python_requires='>=3.8, <4',
 )
