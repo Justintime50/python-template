@@ -18,7 +18,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: extractions/setup-just@v1
       - uses: actions/setup-python@v4
         with:
@@ -30,7 +30,7 @@ jobs:
       matrix:
         pythonversion: ['3.8', '3.9', '3.10', '3.11', '3.12']
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: extractions/setup-just@v1
       - uses: actions/setup-python@v4
         with:
@@ -40,7 +40,7 @@ jobs:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: extractions/setup-just@v1
       - uses: actions/setup-python@v4
         with:
