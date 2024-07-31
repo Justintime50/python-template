@@ -24,10 +24,10 @@ DEV_REQUIREMENTS = [
     'build == 1.1.*',
     'flake8 == 7.*',
     'isort == 5.*',
-    'mypy == 1.9.*',
+    'mypy == 1.11.*',
     'pytest == 8.*',
-    'pytest-cov == 4.*',
-    'twine == 4.*',
+    'pytest-cov == 5.*',
+    'twine == 5.*',
 ]
 
 setuptools.setup(
