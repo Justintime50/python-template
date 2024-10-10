@@ -13,6 +13,7 @@ on:
     paths:
       - '.github/workflows/build.yml'
       - '**/*.py'
+  workflow_dispatch: ~
 
 jobs:
   lint:
@@ -22,13 +23,13 @@ jobs:
       - uses: extractions/setup-just@v2
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.13'
       - run: just install lint
   test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        pythonversion: ['3.8', '3.9', '3.10', '3.11', '3.12']
+        pythonversion: ['3.9', '3.10', '3.11', '3.12', '3.13']
     steps:
       - uses: actions/checkout@v4
       - uses: extractions/setup-just@v2
@@ -44,7 +45,7 @@ jobs:
       - uses: extractions/setup-just@v2
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.13'
       - run: just install coverage
       - uses: coverallsapp/github-action@v2
         with:

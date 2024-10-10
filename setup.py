@@ -27,7 +27,6 @@ DEV_REQUIREMENTS = [
     'mypy == 1.11.*',
     'pytest == 8.*',
     'pytest-cov == 5.*',
-    'twine == 5.*',
 ]
 
 setuptools.setup(
@@ -64,5 +63,5 @@ setuptools.setup(
             'PROJECT_NAME_URL=project_name.my_module:main',
         ]
     },
-    python_requires='>=3.8, <4',
+    python_requires='>=3.9, <4',
 )
