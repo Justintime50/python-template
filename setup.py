@@ -19,14 +19,14 @@ REQUIREMENTS = [
 ]
 
 DEV_REQUIREMENTS = [
-    'bandit == 1.7.*',
-    'black == 24.*',
-    'build == 1.1.*',
+    'bandit == 1.8.*',
+    'black == 25.*',
+    'build == 1.2.*',
     'flake8 == 7.*',
-    'isort == 5.*',
-    'mypy == 1.11.*',
+    'isort == 6.*',
+    'mypy == 1.15.*',
     'pytest == 8.*',
-    'pytest-cov == 5.*',
+    'pytest-cov == 6.*',
 ]
 
 setuptools.setup(
