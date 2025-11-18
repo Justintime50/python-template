@@ -1,5 +1,3 @@
-<div align="center">
-
 # Python Template
 
 A Python project template to save you time and energy.
