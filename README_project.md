@@ -5,7 +5,7 @@
 A one-liner description of your project goes here.
 
 [![Build Status](https://github.com/USERNAME/PROJECT_NAME_URL/workflows/build/badge.svg)](https://github.com/USERNAME/PROJECT_NAME_URL/actions)
-[![Coverage Status](https://coveralls.io/repos/github/USERNAME/PROJECT_NAME_URL/badge.svg?branch=main)](https://coveralls.io/github/USERNAME/PROJECT_NAME_URL?branch=main)
+[![Coverage Status](https://img.shields.io/codecov/c/github/USERNAME/PROJECT_NAME_URL)](https://app.codecov.io/github/USERNAME/PROJECT_NAME_URL)
 [![PyPi](https://img.shields.io/pypi/v/PROJECT_NAME_URL)](https://pypi.org/project/PROJECT_NAME_URL)
 [![Licence](https://img.shields.io/github/license/USERNAME/PROJECT_NAME_URL)](LICENSE)
 
