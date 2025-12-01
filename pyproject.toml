@@ -1,3 +1,41 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PROJECT_NAME_URL"
+description = "Your project description here"
+dynamic = ["version"]
+readme = "README.md"
+requires-python = ">=3.10,<4"
+license = { text = "MIT" }
+authors = [{ name = "USERNAME" }]
+urls = { Homepage = "http://github.com/USERNAME/PROJECT_NAME_URL" }
+scripts = { PROJECT_NAME_URL = "project_name.my_module:main" }
+dependencies = [
+    # Add your list of production dependencies here, eg:
+    # "requests == 2.*",
+]
+optional-dependencies = { dev = [
+    "bandit == 1.9.*",
+    "black == 25.*",
+    "build == 1.3.*",
+    "flake8 == 7.*",
+    "isort == 7.*",
+    "mypy == 1.18.*",
+    "pytest == 9.*",
+    "pytest-cov == 7.*",
+] }
+
+[tool.setuptools.dynamic]
+version = { attr = "project_name._version.__version__" }
+
+[tool.setuptools.packages.find]
+exclude = ["examples", "test"]
+
+[tool.setuptools.package-data]
+project_name = ["py.typed"]
+
 [tool.black]
 line-length = 120
 
