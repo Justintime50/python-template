@@ -23,7 +23,7 @@ Click the [Use this template](https://github.com/Justintime50/python-template/ge
 
 ### File configuration
 
-1. Configure the `setup.py` file
+1. Configure the `pyproject.toml` file
 1. Configure the `justfile` targets
 1. Update the name in the `LICENSE` or swap it out entirely
 1. Configure the `.github/workflows/build.yml` file

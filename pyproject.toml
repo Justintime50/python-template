@@ -7,7 +7,7 @@ name = "PROJECT_NAME_URL"
 description = "Your project description here"
 dynamic = ["version"]
 readme = "README.md"
-requires-python = ">=3.10,<4"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "USERNAME" }]
 urls = { Homepage = "http://github.com/USERNAME/PROJECT_NAME_URL" }
@@ -21,6 +21,7 @@ optional-dependencies = { dev = [
     "black == 25.*",
     "build == 1.3.*",
     "flake8 == 7.*",
+    "Flake8-pyproject == 1.2.*",
     "isort == 7.*",
     "mypy == 1.18.*",
     "pytest == 9.*",
@@ -52,3 +53,7 @@ use_parentheses = true
 
 [tool.mypy]
 disable_error_code = "import-untyped"
+
+[tool.flake8]
+max-line-length = 120
+extend-ignore = "E203"
